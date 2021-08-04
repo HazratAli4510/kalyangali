@@ -1,5 +1,9 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Roboto:wght@400;500;700&display=swap');
+@font-face {
+    font-family: "Ionicons-font";
+    src: url(../fonts/ionicons.ttf);
+}
 
 /* Global */
 *{
@@ -271,7 +275,7 @@ section#services .container .col .box p{
  #experience .col h1::before{
         content: "\f317";
         color: red;
-        font-family: "Ionicons";
+        font-family: "Ionicons-font";
         margin-right: 10px;
  }
  #experience .col b{

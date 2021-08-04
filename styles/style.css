@@ -300,3 +300,11 @@ section#services .container .col .box p{
 #companies .row .col img{
     width: 119px;
 }
+
+/*------------
+ Testimonials
+ ------------- */
+ #testimonials .First-row{
+     height: 90px;
+     background-color: #F9F9F9;
+ }

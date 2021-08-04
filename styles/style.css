@@ -27,6 +27,9 @@
 /*-----------------
  Navbar
  ---------------- */
+ nav{
+     padding: 10px 0;
+ }
 nav i{
     background-color: rgba(0, 0, 0, 0.025);
     padding: 15px;
@@ -193,3 +196,69 @@ section#services .container .col .box p{
     text-align:left;
     width: 100%;
 }
+
+
+/*----------------
+ After Services
+ ------------------ */
+
+
+ #afterServices .left{
+     background-image: url(../images/lets-2.jpg);
+     padding: 200px 0;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ #afterServices .left>div,#afterServices .right>div{
+     width: 60%;
+ }
+ #afterServices .left>div h5, #afterServices .right>div h5{
+     color: rgba(249,249,249,0.75);
+     text-transform: uppercase;
+     font-size: 1rem;
+     font-weight: 600
+ }
+ #afterServices .left>div button,#afterServices .right>div button{
+     outline: none;
+     border: none;
+     background-color: black;
+     color: white;
+     padding: 14px 18px;
+     border-radius: 4px;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     -ms-border-radius: 4px;
+     -o-border-radius: 4px;
+     font-weight: 700;
+     transition: background-color .3s;
+     -webkit-transition: background-color .3s;
+     -moz-transition: background-color .3s;
+     -ms-transition: background-color .3s;
+     -o-transition: background-color .3s;
+}
+#afterServices .left>div button:hover,#afterServices .right>div button:hover{
+    background-color:#d90a2c ;
+}
+ #afterServices .right{
+     background-image: url(../images/lets-1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 200px 0;
+ }
+
+ /*----------------
+ After Services Responsive
+ ------------------ */
+ @media (max-width: 991.98px) { 
+    #afterServices .left>div,#afterServices .right>div{
+        width: 90%;
+    }
+    #afterServices .right,#afterServices .left{
+        padding: 150px 0;
+    }
+  }
+@media (max-width: 767.98px) { 
+    #afterServices .right,#afterServices .left{
+        padding: 100px 0;
+    }
+  }

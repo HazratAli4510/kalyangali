@@ -304,6 +304,7 @@ section#services .container .col .box p{
 
 #companies{
     background-color:#F9F9F9;
+    overflow: hidden;
 }
 #companies .row .col img{
     width: 119px;

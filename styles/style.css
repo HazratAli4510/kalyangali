@@ -313,7 +313,83 @@ section#services .container .col .box p{
 /*------------
  Testimonials
  ------------- */
- /* #testimonials .First-row{
+ #testimonials{
+     background-image: url(../images/kalyan-2.jpg);
+     background-repeat: no-repeat;
+     height: 100%;
+     background-position: right center;
+     background-size: contain;
+     
+ }
+ #testimonials i{
+     color: var(--text-secondary);
+ }
+ #testimonials .First-row{
      height: 90px;
      background-color: #F9F9F9;
- } */
+ }
+ #testimonials .row  .test{
+     background-color: white;
+     padding-left: 30%;
+ }
+ #testimonials .title h5{
+    font-size: .9em;
+    font-weight: 600;
+    color: rgba(35, 34, 38, 0.8);
+ }
+ #testimonials .slider-review p{
+     width: 90%;
+ }
+ #testimonials .slider-review p, #testimonials .slider-review .author p{
+    text-align: justify;
+    font-size: 17px;
+    word-wrap: break-word;
+    line-height: 1.65;
+ }
+ #testimonials .author span{
+     color: var(--text-secondary);
+ }
+ #testimonials button{
+     background-color: rgba(136, 136, 136, 0.03);
+     width: 55px;
+     height: 55px;
+     transition: background-color .3s;
+     -webkit-transition: background-color .3s;
+     -moz-transition: background-color .3s;
+     -ms-transition: background-color .3s;
+     -o-transition: background-color .3s;
+}
+ #testimonials button:hover{
+    background-color: #F3F3F3;
+ }
+ #testimonials button i{
+     color: black;
+     font-size: 24px;
+ }
+#mobile-imag{
+    height: 40vh;
+    background-image: url(../images/kalyan-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+ /* testimonials responsive */
+ @media (max-width: 1499.98px) {
+    #testimonials .row  .test{
+        padding-left: 15%;
+    }
+  }
+  @media (max-width: 991.98px) { 
+    #testimonials{
+        background: none;
+    }
+   }
+   @media (max-width: 756.98px) {
+    #testimonials .row  .test{
+        padding-left: 2%;
+    }
+    #testimonials .slider-review p{
+        width: 95%;
+    }
+  }

@@ -206,7 +206,9 @@ section#services .container .col .box p{
  After Services
  ------------------ */
 
-
+ #afterServices{
+    overflow: hidden;
+}
  #afterServices .left{
      background-image: url(../images/lets-2.jpg);
      padding: 200px 0;
@@ -271,7 +273,9 @@ section#services .container .col .box p{
  /*----------------
  Experienced
  ------------------ */
-
+ #experience{
+     overflow: hidden;
+ }
  #experience .col h1::before{
         content: "\f317";
         color: red;
@@ -308,7 +312,7 @@ section#services .container .col .box p{
 /*------------
  Testimonials
  ------------- */
- #testimonials .First-row{
+ /* #testimonials .First-row{
      height: 90px;
      background-color: #F9F9F9;
- }
+ } */
